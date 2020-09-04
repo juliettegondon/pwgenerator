@@ -1,1 +1,6 @@
 # passwordgenerator
+In this homework assignment we worked with a CSS, HTML, and javascript files in order to create a website that randomly generates a password based on prompts and booleans that allowed the user choose what to include.
+
+Through use of psuedo code, I created steps on what I wanted the user to see and through which functions I could include for this to run and collect input. For instance, I ran a prompt asking for length, and booleans asking for whether or not the user wanted to include special characters, numbers, lowercase and uppercase letters. I struggled a bit with push options and conditionals, but I tried to include the components that would allow the generate button to produce a random password. This process included adding document getElementByID and EventListeners, and ultimately the goal was to return a password.
+
+The main issue I faced was that this actually didn’t happen. sigh My generator only read back to me the uppercase letter array. I would appreciate any feedback I can get on how to make this work. Additionally, when I included a userInput object, this stopped the prompts and booleans from running. I am eager for feedback and excited to make this work!
